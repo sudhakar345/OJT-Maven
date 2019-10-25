@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="DriverPackage.DatadrivenFramework">
+        <methods>
+          <include name="supplierscreation"/>
+          <include name="logout"/>
+          <include name="launchapp"/>
+        </methods>
+      </class> <!-- DriverPackage.DatadrivenFramework -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
